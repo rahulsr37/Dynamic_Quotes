@@ -48,12 +48,11 @@ h1 {
   left: 337px;
 }
 
-.bottom_div{
+.bottom_div {
   margin-bottom: 50px;
   height: 50px;
   position: relative;
 }
-
 
 .update_btn {
   text-align: center;
@@ -69,15 +68,15 @@ h1 {
   right: 50px;
 }
 
-.tweet{
-    position: absolute;
-    left: 50px;
-    margin-top: 5px;
+.tweet {
+  position: absolute;
+  left: 50px;
+  margin-top: 5px;
 }
 
 .click_effect:active {
-    transform: scale(0.9);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  transform: scale(0.9);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 
 @media screen and (max-width: 450px) {
@@ -92,11 +91,19 @@ h1 {
 
   .quotes_container {
     width: 250px;
-    height: 100px;
+    height: 50px;
     margin: auto;
     color: black;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 75px;
+  }
+
+  .author_container {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+    position: relative;
+    left : 200px
   }
 
   .update_btn {
